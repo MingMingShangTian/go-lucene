@@ -4,6 +4,7 @@ type Query struct {
 
 }
 
-func (*Query) ToString(filed string) {
+/** Prints a query to a string. */
+func (q *Query) ToString(filed string) string {
 	return filed
 }
